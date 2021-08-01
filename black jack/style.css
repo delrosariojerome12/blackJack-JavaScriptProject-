@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  border: solid 1px #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  height: 90%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+body {
+  background: url(img/color-bg.png);
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+}
+h1 {
+  color: #f5ca0c;
+  font-size: 50px;
+}
+.container p {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 400;
+}
+.container #question {
+  font-style: italic;
+}
+button {
+  padding: 10px 15px;
+  border-radius: 25px;
+  width: 150px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 400;
+}
+/* button:hover {
+  background: #434343;
+  color: white;
+} */
+h3 {
+  color: white;
+  border-bottom: solid white 3px;
+  opacity: 0;
+  /* transition: all 1s ease-in; */
+}
+#drawButton,
+#saveCard {
+  display: none;
+}
+.results {
+  /* border: solid 1px white; */
+  width: 85%;
+  height: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #096cbd;
+  display: none;
+  padding: 15px;
+}
