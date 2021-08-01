@@ -107,7 +107,7 @@ function draw() {
   } else {
     isAlive = false;
     results.style.display = "flex";
-    winLose.textContent = `You Lose! Player Sum: ${sum} Cards: ${numberCards} Computer Wins! \nSum:${computerSum} Cards: ${compNumCards} `;
+    winLose.textContent = `You Lose! Sum Over 21! Player Sum: ${sum} Cards: ${numberCards} Computer Wins! \nSum:${computerSum} Cards: ${compNumCards} `;
     computerScore.textContent++;
   }
 }
