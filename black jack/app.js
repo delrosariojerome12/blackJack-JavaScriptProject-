@@ -102,7 +102,7 @@ function draw() {
     hasBlackjack = true;
     results.style.display = "flex";
     winLose.textContent =
-      winLose.textContent = `Black Jack! You Win! Player Sum: ${sum} Cards: ${numberCards} Computer Sum:${computerSum} Cards: ${compNumCards} `;
+      winLose.textContent = `You Win! Player Sum: ${sum} Cards: ${numberCards} Computer Sum:${computerSum} Cards: ${compNumCards} `;
     playerScore.textContent++;
   } else {
     isAlive = false;
@@ -120,7 +120,7 @@ function save() {
     computerScore.textContent++;
   } else if (sum > computerSum && sum <= 21) {
     results.style.display = "flex";
-    winLose.textContent = `Black Jack! You Win! Player Sum: ${sum} Cards: ${numberCards} Computer Sum:${computerSum} Cards: ${compNumCards} `;
+    winLose.textContent = `You Win! Player Sum: ${sum} Cards: ${numberCards} Computer Sum:${computerSum} Cards: ${compNumCards} `;
     playerScore.textContent++;
   } else {
     results.style.display = "flex";
