@@ -9,13 +9,14 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 20px;
+  padding: 15px;
   height: 90%;
-  width: 80%;
+  width: 90%;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-evenly;
+  text-align: center;
 }
 body {
   background: url(img/color-bg.png);
@@ -74,4 +75,25 @@ h3 {
   background: #096cbd;
   display: none;
   padding: 15px;
+}
+.score-con {
+  width: 100%;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.score-con h2 {
+  color: #ddd;
+  font-size: 30px;
+  position: relative;
+}
+.score {
+  display: inline-block;
+  font-size: 30px;
+  color: #dee20e;
+  text-align: center;
 }
