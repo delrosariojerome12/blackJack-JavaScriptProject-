@@ -99,7 +99,7 @@ function draw() {
   let anotherCard = Math.floor(Math.random() * (11 - 2 + 1)) + 2;
   numberCards++;
   cards.textContent = numberCards;
-  console.log("numberCArds " + numberCards);
+  console.log("#" + numberCards);
   sum += anotherCard;
   sumEl.textContent = sum;
 
@@ -142,6 +142,7 @@ function playAgain() {
   results.style.display = "none";
   drawButton.disabled = true;
   cards.textContent = 0;
+  compNumCards = 2;
   sumEl.textContent = 0;
   startButton.disabled = false;
   saveCard.disabled = true;
@@ -152,14 +153,14 @@ function playAgain() {
   secondCardComp = Math.floor(Math.random() * (11 - 2 + 1)) + 2;
   computerSum = firstCardComp + secondCardComp;
   // tests
-  console.log("play again btn");
-  console.log(firstCard);
-  console.log(secondCard);
-  console.log(sum);
-  console.log(numberCards);
-  console.log("comp");
-  console.log(firstCardComp);
-  console.log(secondCardComp);
-  console.log(computerSum);
-  console.log(compNumCards);
+  // console.log("play again btn");
+  // console.log(firstCard);
+  // console.log(secondCard);
+  // console.log(sum);
+  // console.log(numberCards);
+  // console.log("comp");
+  // console.log(firstCardComp);
+  // console.log(secondCardComp);
+  // console.log(computerSum);
+  // console.log(compNumCards + " comnumcards");
 }
